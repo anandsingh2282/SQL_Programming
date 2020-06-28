@@ -1,3 +1,31 @@
-# insert script
-INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+# create table for problem 1 , problem 1
+CREATE TABLE `countries` (
+  `COUNTRY_ID` int NOT NULL,
+  `COUNTRY_NAME` varchar(10) DEFAULT NULL,
+  `REGION_ID` varchar(10) DEFAULT NULL
+);
+
+
+-- create table countries
+-- (
+-- 	country_id varchar (10),
+-- 	country_name varchar(40),
+-- 	region varchar (10)
+-- );
+
+# inserting into country table
+
+insert into countries values 
+ (10,"india","hindu");
+ 
+insert into countries values 
+(11,"pakistan","muslim");
+
+insert into countries values 
+(20,"srilanka","unknw");
+
+
+select * from countries;
+
+-- INSERT INTO table_name (column1, column2, column3, ...)
+-- VALUES (value1, value2, value3, ...);
