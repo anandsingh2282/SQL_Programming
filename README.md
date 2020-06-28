@@ -1,1 +1,1 @@
-# SQL_Programming
+# This project is to learn sql programming
